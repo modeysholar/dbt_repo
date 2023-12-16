@@ -1,0 +1,18 @@
+assignment1: 
+  
+
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: xm21400.eu-central-1
+
+      # User/password auth
+      user: mode
+      password: Mickeymode96*
+
+      role: accountadmin
+      database: DBT_test
+      warehouse: compute_wh
+      schema: test
+      threads: 10

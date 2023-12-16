@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: sales_data
+    database: snowflake_sample_data
+    schema: tpch_sf100
+    tables:
+      - name: orders
+      - name: lineitem
+      - name: customer
+      - name: nation
+      - name: region
+      
