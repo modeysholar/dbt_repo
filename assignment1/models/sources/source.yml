@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: finance_data
+    database: snowflake_sample_data
+    schema: tpcds_sf10tcl 
+    tables:
+      - name: item
+      - name: catalog_sales
+      - name: date_dim
+      - name: call_center
+
+  
